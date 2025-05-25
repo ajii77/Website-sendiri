@@ -28,12 +28,11 @@
       align-items: center;
     }
 
-    .logo {
-      font-size: 24px;
-      font-weight: 600;
-      color: #00796b;
-    }
-    
+   .logo {
+  font-size: 24px;
+  font-weight: 600;
+  color: #00796b;
+}
 
     .nav-links {
       list-style: none;
@@ -52,15 +51,17 @@
     }
 
     .hero {
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      background: url(/Gambar/istockphoto-1294521676-1024x1024.jpg);
-      padding: 0 20px;
-    }
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: url('/Gambar/background\ baru.avif');
+  background-size: cover;
+  background-position: center;
+  padding: 0 20px;
+}
 
     .hero img {
       width: 150px;
@@ -72,12 +73,12 @@
     }
 
     .hero h1 {
-      font-size: 3rem;
+      font-size: 2rem;
       color: #ffffff;
     }
 
     .hero p {
-      margin-top: 15px;
+      margin-top: 10px;
       font-size: 1.2rem;
       max-width: 600px;      
       color: #ffffff;
