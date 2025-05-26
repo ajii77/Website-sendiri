@@ -102,7 +102,7 @@
     }
 
     .about, .project {
-      padding: 80px 20px;
+      padding: 40px 20px;
       max-width: 1000px;
       margin: auto;
       text-align: center;
@@ -150,6 +150,33 @@
     .project-card p {
       font-size: 0.95rem;
       padding: 0 15px 15px;
+    }
+
+    .contact {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .contact h2 {
+      font-size: 2rem;
+      color: aqua;
+      margin-bottom: 20px;
+    }
+
+    .contact p {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+    }
+
+    .contact a {
+      color: #00796b;
+      text-decoration: underline;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
     }
 
     footer {
